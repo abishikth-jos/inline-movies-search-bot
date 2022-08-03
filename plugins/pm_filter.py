@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/THE_SCAMMASTER'),
+                    InlineKeyboardButton('Group', url='https://t.me/Moviestarofficle')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Owner : <a href='https://t.me/IRONMAN_OP'>Anurag</a>\nUpdate Channel : <a href='https://t.me/THE_SCAMMASTER'>The Scammaster</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/THE_SCAMMASTER'),
+                        InlineKeyboardButton('Group', url='https://t.me/Moviestarofficle')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/THE_SCAMMASTER'),
+                        InlineKeyboardButton('Group', url='https://t.me/Moviestarofficle')
                     ]
                     ]
                 
@@ -369,4 +369,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("Isn't it more interesting?👀",show_alert=True)
