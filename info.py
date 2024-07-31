@@ -5,9 +5,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['3264452'])
+API_HASH = environ['dfa13ad72701f1bbaba18eb59fd52df3']
+BOT_TOKEN = environ['1682428637:AAFhIqMTMJIYpOGWTNgEEaYWv44aXmrw5nk']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -23,7 +23,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI']
+DATABASE_URI = environ['mongodb+srv://MediaSearch:MediaSearch@cluster0.51ylhch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
