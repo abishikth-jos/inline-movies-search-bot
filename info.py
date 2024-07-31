@@ -5,9 +5,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID', 3264452])
-API_HASH = environ['API_HASH', dfa13ad72701f1bbaba18eb59fd52df3]
-BOT_TOKEN = environ['BOT_TOKEN', 1682428637:AAFhIqMTMJIYpOGWTNgEEaYWv44aXmrw5nk]
+API_ID = int(environ['API_ID', '3264452'])
+API_HASH = environ['API_HASH', 'dfa13ad72701f1bbaba18eb59fd52df3']
+BOT_TOKEN = environ['BOT_TOKEN', '1682428637:AAFhIqMTMJIYpOGWTNgEEaYWv44aXmrw5nk']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -23,8 +23,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI', mongodb+srv://MediaSearch:MediaSearch@cluster0.51ylhch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0]
-DATABASE_NAME = environ['DATABASE_NAME', MediaSearch ]
+DATABASE_URI = environ['DATABASE_URI', 'mongodb+srv://MediaSearch:MediaSearch@cluster0.51ylhch.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0']
+DATABASE_NAME = environ['DATABASE_NAME', 'MediaSearch' ]
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
