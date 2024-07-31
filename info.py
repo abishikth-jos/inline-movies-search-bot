@@ -5,7 +5,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID', '3264452'])
+API_ID = int(environ['API_ID', 3264452])
 API_HASH = environ['API_HASH', 'dfa13ad72701f1bbaba18eb59fd52df3']
 BOT_TOKEN = environ['BOT_TOKEN', '1682428637:AAFhIqMTMJIYpOGWTNgEEaYWv44aXmrw5nk']
 
